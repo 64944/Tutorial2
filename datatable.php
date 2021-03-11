@@ -61,9 +61,9 @@ session_start();
               echo "<td>" . $row['Details'] . "</td>";
               echo "<td>" . $row['Publish'] . "</td>";
               echo "<td>" .
-                "<a href='view.php?view=".$row['No']."'><i class='fas fa-eye'></i></a>
+                "<a href='view.php?view=".$row['No']."'><i class='fas fa-eye' style='color: #29a329'></i></a>
                 <a href='editForm.php?edit=".$row['No']."'><i class='fas fa-wrench'></i></i></a>
-                <a href='php/delete.php?delete=".$row['No']."'><i class='fas fa-times-circle'></i></i></i></a>"
+                <a href='php/delete.php?delete=".$row['No']."'><i class='fas fa-times-circle' style='color: red'></i></i></i></a>"
                 . "</td>";
               echo "</tr>";
             }
