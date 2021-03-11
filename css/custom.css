@@ -1,0 +1,9 @@
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #e8fcd7;
+}
+
+i.fas {
+margin: 0px 3px;
+color: black;
+}
